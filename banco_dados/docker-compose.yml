@@ -1,0 +1,14 @@
+services:
+  db:
+    image: mysql:8.0
+    container_name: db_alan_marinho
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: db_alan_marinho
+      MYSQL_USER: user
+      MYSQL_PASSWORD: pass
+      MYSQL_ROOT_HOST: '%'
+    command: --local-infile=1
+    ports:
+      - '127.0.0.1:3390:3306'
+    restart: always
