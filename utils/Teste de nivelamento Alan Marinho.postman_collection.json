@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "4bec47fa-8661-4f6d-affe-eb2f8bdb8d91",
+		"name": "Teste de nivelamento Alan Marinho",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31045734"
+	},
+	"item": [
+		{
+			"name": "index",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/search_operadora?q=bradesco",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"search_operadora"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "bradesco"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

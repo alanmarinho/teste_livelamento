@@ -50,7 +50,7 @@
 
   ### API
   1. Para executar a API, digite em um console livre o comando `python .\api\main.py`. Uma API Flask deve ser iniciada e uma mensagem semelhante a ```* Running on http://127.0.0.1:5000``` será apresentada, e a API estará disponível na URL `http://127.0.0.1:5000`.
-  2. Para usar a API, pode-se usar a coleção compatível com Postman/Insomnia disponibilizada em `./utils/colecao.json` e importá-la no programa de requests de sua preferência.
+  2. Para usar a API, pode-se usar a coleção compatível com Postman/Insomnia disponibilizada em `./utils` e importá-la no programa de requests de sua preferência.
     ### Rotas
       - GET `/` - rota principal, retorna apenas uma mensagem indicando que a API está funcionando.
       - GET `/search_operadora?rs={text}` - Rota de busca por operadoras, busca no campo `Razao_Social` correspondências pelo texto fornecido `{text}` sob o parâmetro de URL `rs`.
