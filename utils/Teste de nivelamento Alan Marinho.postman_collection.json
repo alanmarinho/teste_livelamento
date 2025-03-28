@@ -45,7 +45,7 @@
 					],
 					"query": [
 						{
-							"key": "q",
+							"key": "rs",
 							"value": "bradesco"
 						}
 					]
